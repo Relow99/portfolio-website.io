@@ -1,0 +1,327 @@
+
+.item1 
+{
+     grid-area: header;
+    
+}
+
+.item3 
+{
+     grid-area: main;
+ }
+
+ .item4
+{
+     grid-area: main2;
+     
+ }
+ .item2
+ {
+     grid-area: main3;
+     
+ }
+.item5
+ {
+     grid-area:footer;
+    
+}
+ 
+.item6{
+  grid-area:header2;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header2 header2 header2 header header header'
+    'main main main main main main'
+    'main2 main2 main2 main2 main2 main2'
+    'footer footer footer footer footer footer' ;
+  grid-gap: 10px;
+  background-color: #ffffff;
+  padding: 0px;
+  background-image: no-repeat;
+}
+
+.grid-Addresscontainer {
+  display: grid;
+  grid-template-areas:
+    'Address Address Address Address Address Address';
+  /*grid-gap: 10px;
+  padding: 10px;*/
+}
+
+.tshwareloText{
+  font: 10px;
+}
+
+.grid-container > div
+ {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 0px 0;
+  font-size: 30px;
+}
+
+.grid-Addresscontainer > div
+ {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.list{
+  margin-left:  0px;
+}
+ul > li{
+  display:inline;
+  padding-right: .6em;;
+}
+
+.menu-content {
+  font-family: 'Oswald', sans-serif; 
+  padding: 0 20px 0 0;
+}
+/* .collapsible-menu {
+  background-color: rgb(255, 255, 255);
+  padding: 0px 30px;
+  border-bottom: 3px solid #CDE700;
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+.collapsible-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+.collapsible-menu a {
+  display:block;
+  padding: 10px;
+  text-decoration: none;
+} */
+
+.collapsible {
+  background-color: rgb(38, 13, 95);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.collapsible1 {
+  background-color: rgb(54, 36, 95);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible2 {
+  background-color: rgb(65, 56, 87);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible3 {
+  background-color: rgb(61, 58, 70);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #000;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+@media only screen and (max-width: 650px){
+
+  .item1 
+  {
+       grid-area: header;
+      
+  }
+  
+  .item3 
+  {
+       grid-area: main;
+   }
+  
+   .item4
+  {
+       grid-area: main2;
+       
+   }
+   .item2
+   {
+       grid-area: main3;
+       
+   }
+  .item5
+   {
+       grid-area:footer;
+      
+  }
+  .item5 p{
+    font-size: 20px;
+  }
+   
+  .item6{
+    grid-area:header2;
+  }
+  .tshwareloText{
+    font-size: 17px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'header2 header2 header2 header header header'
+      'main main main main main main'
+      'main2 main2 main2 main2 main2 main2'
+      'footer footer footer footer footer footer' ;
+    grid-gap: 10px;
+    background-color: #ffffff;
+    padding: 0px;
+    background-image: no-repeat;
+  }
+  
+  .grid-Addresscontainer {
+    display: grid;
+    grid-template-areas:
+      'Address Address Address Address Address Address';
+    /*grid-gap: 10px;
+    padding: 10px;*/
+  }
+  
+  .tshwareloTextHeader{
+    font-size:3em ;
+  }
+  
+  .grid-container > div
+   {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 0px 0;
+    font-size: 30px;
+  }
+  
+  .grid-Addresscontainer > div
+   {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .list{
+    margin-left:  0px;
+    font-size: 17px;
+  }
+  ul > li{
+    display:inline;
+    padding-right: .6em;;
+  }
+  
+  .menu-content {
+    font-family: 'Oswald', sans-serif; 
+    padding: 0 10px 0 0;
+  }
+  .content p{
+    font-size: 17px;
+  }
+  /* .collapsible-menu {
+    background-color: rgb(255, 255, 255);
+    padding: 0px 30px;
+    border-bottom: 3px solid #CDE700;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+  }
+  .collapsible-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .collapsible-menu a {
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+  } */
+  
+  .collapsible {
+    background-color: rgb(38, 13, 95);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  .collapsible1 {
+    background-color: rgb(54, 36, 95);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .collapsible2 {
+    background-color: rgb(65, 56, 87);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .collapsible3 {
+    background-color: rgb(61, 58, 70);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #000;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+}

@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Css/style.css" rel="stylesheet" >
+    <link href="easy-responsive-tabs.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+   </head>
+<body>
+   <div class="grid-container" style="background: url(Images/IMG_20191104_170152_371.jpg)">
+    <div class="item6"  >
+      
+      <img src="Images/ts.jpg" alt="ts" width="200" height="200" style="border-radius: 100px">
+      
+</div>
+  
+    <div class="item1"  >
+        <ul class="list">
+            <li><a href="#Home" style="text-decoration: none" class="fa fa-home">Home</a></li>
+            <li><a href="#Portfolio" style="text-decoration: none;"  class="fa fa-female">Portfolio  </a></li>
+            <li><a href="#Contact" style="text-decoration: none;" class="fa fa-headphones">Contact me</a></li>
+            <li><a href="Documents/Tshwarelo's P CV.pdf" style="text-decoration: none;" class="fa fa-file-word-o" target="_blank">CV</a></li>
+          </ul>
+         
+          
+    </div>
+ 
+    
+  
+   <!-- <div class="">Menu</div>-->
+    <div class="item3">
+        
+        <!--<div class="tshwareloTextHeader">
+            Welcome to
+        </div>
+        <div class="tshwareloText">
+            Tshwarelo's World
+        </div>-->
+        <h3 class="tshwareloText"><marquee behavior="alternate" scrollamount="15">TSHWARELO'S WORLD</marquee></h3>
+        <h3 class="tshwareloText"><marquee behavior="alternate"scrollamount="15">ASPIRING WEB DEVELOPER</marquee></h3>
+        
+    </div>  
+    <div class="item4" id="Portfolio">
+        <h3>Portfolio</h3>
+        <div class="collapsible-menu">
+            <div class="menu-content">
+              
+            <ul>
+                <!-- <li><a href="#">About Me</a></li> -->
+                <button type="button" class="collapsible">About Me</button>
+                <div class="content">
+                    <p>I am currently doing Web Development leanership with Standand bank hosted by Umuzi Academy <br>
+                      I'm new in the IT industry so I'm still on the basic level with coding/programming and loving the jouney so far<br>
+                      previously worked for Electoral Commission(IEC),IEMSA,SAPS and on my dry days I did promotions/hostressing for companies like Discovery and NedBank through the spotlight agency<br>
+                      my hobbies are playing tennis and travelling,I'm adventerous and like to try new things.</p>
+                </div>
+                <!--<li><a href="#">Skills</a></li>-->
+                <button type="button" class="collapsible1">Skills</button>
+                <div class="content">
+                    <p>My coding/programming skills are still basic but I've obtained some common workplace skills from my previous jobs like:<br>
+                       Microsoft office<br>
+                       Ability solve problems<br>
+                        Strong work ethic and ability to function well in a team,good interpersonal skills<br>
+                        Excellent time Management<br>
+                        Adaptive</p>
+                </div>
+                <!--<li><a href="#">Experience</a></li>-->
+                <button type="button" class="collapsible2">Experience</button>
+                <div class="content">
+                    <p>supply Chain Management<br>
+                        Updating Asset register,Stationare management,fleet management,Recording/Filling Monthly returns.
+                    </p>
+                    <p>Human Resource Management<br>
+                        managing personal file,capturing Leave forms,filling documents and correspondence, office management.
+                    </p>
+                    <p>Municipal Outreach Coordinator<br>
+                        managing staff, planning and conducting civic and voter educationg,participating in electoral activities and projects,attending meeting and taking minutes.
+                    </p>
+                
+                </div>
+                <!--<li><a href="#">Education</a></li>-->
+                <button type="button" class="collapsible3">Education</button>
+                <div class="content">
+                <p>N.diploma:Public Management-completed</p>
+                <p> Web Devepment-in progress </p>
+                <p>HS.Accounting Sciences-pending </p>
+                </div>
+              </ul>
+
+    </div>
+        </div>
+    
+    <!--<div class="item2" id="Contact">
+        <h1>Contact</h1> -->
+    </div>
+      
+    <!--<div class="">Right</div>-->
+    <div class="item5" id="Contact">
+        <h3>Contact</h3>
+          <p>CellNumber:078 399 3453<br>
+            Email Address: Tshwarelo90@gmail.com</p>
+        
+        <a href="https://www.linkedin.com/in/tshwarelo-malepa-09653a181/" title="" target="_blank"><i class="fa fa-linkedin"style="color:blue"></i></a>
+        <a href="https://twitter.com/TS_Relow" title="" target="_blank"><i class="fa fa-twitter-square"style="color:skyblue"></i></a>
+        <a href="https://github.com/Relow99" title="" target="_blank"><i class="fa fa-github"style="color:red"></i></a>
+        <a href="http://instagram.com/TshwareloMalepa"  title="" target="_blank"><i class="fa fa-instagram"style="color:purple"></i></a>
+        
+
+
+    </div>
+
+  
+     
+
+  </div> 
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible1");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible2");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+ <script>
+    var coll = document.getElementsByClassName("collapsible3");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+</body>
+</html>
